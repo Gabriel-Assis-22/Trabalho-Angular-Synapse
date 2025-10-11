@@ -10,20 +10,23 @@
     <aside>
       <div class="login-superior">
         <div class="img-bolsa"></div>
-        <h3>Guia do Mochileiro
-          Fatecano</h3>
+        <div class="caixa-titulo-login">
+          <h3>Guia do Mochileiro
+            Fatecano</h3>
+        </div>
       </div>
       <div class="login-centro">
         <form action="">
-            <label for="">E-mail</label>
-            <input type="email" >
-            <label for="">Senha</label>
-            <input type="senha">
+          <label for="e-mail">E-mail</label>
+          <input type="password" id="password" placeholder="Digite seu e-mail">
+          <label for="password">Senha</label>
+          <input type="password" id="password" placeholder="Digite sua senha">
         </form>
-        <button>Entrar</button>
+        <button><p class="texto-botao" routerLink="/home">Entrar</p></button>
       </div>
       <div class="login-inferior">
-        <p>Ainda não possui conta?</p><p routerLink="/register" style="color: #21BC6B;">Cadastrar</p>
+        <p>Ainda não possui conta? </p>
+        <p routerLink="/register" style="color: #21BC6B;"> Cadastrar-se</p>
       </div>
     </aside>
 
