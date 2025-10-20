@@ -26,20 +26,22 @@ main {
     height: 80vh;
     display: flex;
     margin: 0 5% 0 0;
+    /* background-color: #21BC6B; */
 }
 
 article {
-    width: 55%;
+    width: 50%;
     display: flex;
     align-items: center;
 }
 
 aside {
-    width: 45%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* background-color: #263238; */
 }
 
 section {
